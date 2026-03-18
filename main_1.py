@@ -70,7 +70,7 @@ class TodoApp(ctk.CTk):
 
         self.done_btn = ctk.CTkButton(
             self.actions,
-            text="Ok",
+            text="okay",
             fg_color="#5cb85c",
             hover_color="#449d44",
             command=self.mark_done

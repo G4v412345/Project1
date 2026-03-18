@@ -2,7 +2,7 @@ import customtkinter as ctk
 from tkinter import messagebox
 import json
 import os
-#asdasd
+
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
@@ -13,7 +13,7 @@ class TodoApp(ctk.CTk):
         super().__init__()
 
         self.title("To-Do List")
-        self.geometry("500x600")
+        self.geometry("700x600")
         self.minsize(400, 500)
 
         self.tasks = []

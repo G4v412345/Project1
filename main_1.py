@@ -13,7 +13,7 @@ class TodoApp(ctk.CTk):
         super().__init__()
 
         self.title("To-Do List")
-        self.geometry("600x600")
+        self.geometry("700x600")
         self.minsize(400, 500)
 
         self.tasks = []

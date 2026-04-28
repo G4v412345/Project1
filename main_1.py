@@ -82,13 +82,13 @@ class TodoApp(ctk.CTk):
         self.refresh_list()
 
     def add_task(self):
-        #text = self.entry.get().strip()
-        #if text:
-        text = self.entry.get()
-        self.tasks.append({"text": text, "done": False})
-        self.entry.delete(0, "end")
-        self.save_tasks()
-        self.refresh_list()
+        text = self.entry.get().strip()
+        if text:
+            text = self.entry.get()
+            self.tasks.append({"text": text, "done": False})
+            self.entry.delete(0, "end")
+            self.save_tasks()
+            self.refresh_list()
 
 
     # def delete_task(self):

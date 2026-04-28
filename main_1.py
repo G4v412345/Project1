@@ -105,15 +105,11 @@ class TodoApp(ctk.CTk):
     #             self.refresh_list()
 
     def delete_task(self):
-        # if self.selected_index is not None:
-        #     self.tasks.pop(self.selected_index)
-        #     self.selected_index = None
-        #     self.save_tasks()
-        #     self.refresh_list()
-        if self.tasks:
-            self.tasks.pop()  
-            self.save_tasks()
-            self.refresh_list()
+         if self.selected_index is not None:
+             self.tasks.pop(self.selected_index)
+             self.selected_index = None
+             self.save_tasks()
+             self.refresh_list()
 
     def mark_done(self):
         if self.selected_index is not None:

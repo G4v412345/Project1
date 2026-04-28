@@ -20,7 +20,7 @@
 ## 🖥️ Інтерфейс застосунку
 
 ### Головне вікно
-![Main Window](screenshots/MainMenu.png)
+![Main Window](screenshots/MainMenu.PNG)
 
 ---
 
